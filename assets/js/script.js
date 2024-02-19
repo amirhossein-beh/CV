@@ -1,16 +1,5 @@
 'use strict';
 
-
-const title = document.title
-
-window.addEventListener('blur' , () =>{
-  document.title = `کووووونی ` 
-})
-window.addEventListener('focus' , ()=>{
-  document.title = title
-})
-
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
